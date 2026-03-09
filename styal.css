@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+#navbar nav ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    text-transform: uppercase;
+
+}
+#navbar button{
+    background-color: deeppink;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: pink;
+    border: none;
+    font-size: 16px;
+    gap: 20;
+}
+#navbar img{
+    width: 120px;
+    height: auto;
+    
+}
+body{
+    background-color: black;
+}
