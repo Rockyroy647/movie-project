@@ -1,64 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    color: rgb(227, 217, 217);
+    text-align: center;
+    background-color: rgb(187, 23, 50);
+    padding: 15px;
+}
+nav ul ul {
+    list-style: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
 body{
-    margin:0;
-    font-family: Arial;
+    background-color: rgb(13, 11, 13);
 }
-
-/* Navbar */
 nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:red;
-    padding:10px 40px;
+    background-color: rgb(183, 77, 95);
+    text-align: center;
+    padding: 10px;
+
 }
-
-.logo{
-    color:white;
-    font-size:22px;
-    font-weight:bold;
+nav a{
+    color: white;
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
 }
-
-nav ul{
-    list-style:none;
-    display:flex;
-}
-
-nav ul li{
-    margin:0 15px;
-    color:white;
-    cursor:pointer;
-}
-
-/* Banner */
-
-.banner{
-    background:#eee;
-    text-align:center;
-    padding:60px;
-}
-
-/* Movies */
-
 .movies{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    padding:40px;
-}
-
-.movie-card{
-    border:1px solid #ccc;
-    padding:10px;
-    text-align:center;
-}
-
-.movie-card img{
-    width:200px;
-}
-
-button{
-    background:red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     color:white;
-    border:none;
-    padding:8px 15px;
+    margin: 30px;
+
+}
+.movies-card img{
+    width: 400px;
+
+}
+button{
+    background-color: rgb(238, 46, 46);
+    text-align: center;
+    justify-content: center;
+    color: wheat;
 }
